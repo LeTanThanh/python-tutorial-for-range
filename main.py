@@ -29,3 +29,10 @@ if __name__ == "__main__":
 
   for index in range(0, 11, 2):
     print(index)
+
+  # Using Python for loop to calculate the sum of a sequence
+
+  sum = 0
+  for num in range(101):
+    sum += num
+  print(sum)
