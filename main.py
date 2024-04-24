@@ -20,3 +20,12 @@ if __name__ == "__main__":
 
   for index in range(1, 6):
     print(index)
+
+  # Specifying the increment for the sequence
+
+  """
+  range(start, stop, step)
+  """
+
+  for index in range(0, 11, 2):
+    print(index)
